@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:grey;
+    margin-bottom: 80px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+    color: black;
+}
+nav{
+    position:fixed;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+li {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+.width {
+    max-width: 1600px;
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color:black;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.informacion {
+    text-align: center;
+    text-justify: initial;
+    width: 30%;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+    color: black;
+}
+.logos {
+    width: 60%;
+}
+.logos > img {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding-left: 120px;
+}
+.emoticonos {
+    width: 6%;
+}
+.emoticonos > img {
+    margin-left: 165px;
+    padding: 2px 0;
+    width: 100%;
+}
+.tamanio {
+    margin: 30px 160px;
+    width: 1200px;
+}
+h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+figcaption {
+    margin: 20px 160px;
+}
